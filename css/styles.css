@@ -4483,3 +4483,22 @@ td:last-child {
 #right-side .fancy {
 	color: white;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+	.s-split-screen {
+		height: 60vh; /* Adjust this value as needed */
+	}
+
+	.side {
+		height: 60vh; /* Adjust this value as needed */
+	}
+
+	.side .title {
+		font-size: 8vw; /* Adjust font size for better readability on mobile */
+	}
+
+	.side .fancy {
+		font-size: 1.2em; /* Adjust font size for better readability on mobile */
+	}
+}
